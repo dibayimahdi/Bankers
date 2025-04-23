@@ -46,14 +46,6 @@ The algorithm works in a loop:
 2. If such a process is found, it is "executed" — its allocated resources are released back to the pool.
 3. This continues until all processes complete or no more progress can be made.
 
-## 🔧 Modernizing Tips (optional)
-
-If you'd like to run this code with a modern C++ compiler:
-- Replace `#include<iostream.h>` with `#include <iostream>` and add `using namespace std;`
-- Remove or replace `conio.h` functions (`clrscr()`, `gotoxy()`, `getch()`)
-- Change `void main()` to `int main()` and return 0 at the end
-
----
 
 ## 📄 License
 
